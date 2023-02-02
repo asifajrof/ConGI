@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import scanpy as sc
 import cv2
-from skimage.feature import graycomatrix, graycoprops
+from skimage.feature import greycomatrix, greycoprops
 from tqdm import trange
 import numba
 from scipy.sparse import issparse
